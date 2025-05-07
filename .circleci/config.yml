@@ -11,7 +11,7 @@ jobs:
           command: "echo Hello, World!"
       - checkout
       - store_artifacts:
-          path: ./test_data/mstest
+          path: ./test_data/tosca
           destination: report.xml
   
 
