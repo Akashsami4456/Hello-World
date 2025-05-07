@@ -11,7 +11,7 @@ jobs:
           command: "echo Hello, World!"
       - checkout
       - store_artifacts:
-          path: ./test_data
+          path: ./test_data/junit
           destination: report.xml
   
 
