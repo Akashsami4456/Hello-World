@@ -9,6 +9,11 @@ jobs:
       - run:
           name: "Say hello"
           command: "echo Hello, World!"
+      - checkout
+      - store_artifacts:
+          path: ./test_data
+          destination: report.xml
+  
 
 workflows:
   say-hello-workflow: 
