@@ -11,8 +11,8 @@ jobs:
           command: "echo Hello, World!"
       - checkout
       - store_artifacts:
-          path: ./test_data/prodperfect
-          destination: report.json
+          path: ./test_data/testng
+          destination: report.xml
   
 
 workflows:
