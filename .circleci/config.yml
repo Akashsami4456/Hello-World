@@ -11,8 +11,8 @@ jobs:
           command: "echo Hello, World!"
       - checkout
       - store_artifacts:
-          path: ./test_data/tosca
-          destination: report.xml
+          path: ./test_data/jmeter
+          destination: report.jtl
   
 
 workflows:
